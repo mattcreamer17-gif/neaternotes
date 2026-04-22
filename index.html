@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>A read on where AI fits inside NeaterNotes</title>
+<meta name="description" content="Saw you shipped out of the Babson Summer Venture cohort and your OGR pipeline has to do three things at once: read the words, preserve the layout, and catch the underlines and strikes." />
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" href="logo.png" />
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-wrap">
+    <a class="brand" href="https://neaternotes.com" target="_blank" rel="noopener" aria-label="NeaterNotes">
+      <img src="logo.png" alt="NeaterNotes app icon" class="logo" />
+      <span class="brand-name">NeaterNotes</span>
+    </a>
+    <span class="prepared-tag">Prepared for Zavier</span>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <div class="eyebrow">A quick read from the booth</div>
+      <h1>A read on where AI fits inside NeaterNotes, and where code does the job better.</h1>
+      <p class="subhead">
+        Your OGR pipeline is doing three jobs. One of them needs AI. The other two are costing you model calls where code would ship faster.
+      </p>
+      <div class="hero-cta">
+        <a class="btn-primary" href="https://calendly.com/thecro-eduba/30min" target="_blank" rel="noopener">Grab 30 minutes with Matt</a>
+        <span class="cta-note">Bring your current OGR accuracy numbers and the free-to-Plus conversion rate.</span>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="paper-card">
+        <div class="handwriting">three jobs,<br/>one pipeline.</div>
+        <div class="tick tick-1"></div>
+        <div class="tick tick-2"></div>
+        <div class="underline-mark"></div>
+      </div>
+      <div class="digital-card">
+        <div class="digi-line digi-line-1">Three jobs, one pipeline.</div>
+        <div class="digi-line digi-line-2">Layer 1 · character recognition</div>
+        <div class="digi-line digi-line-3">Layer 2 · layout preservation</div>
+        <div class="digi-line digi-line-4">Layer 3 · non-text marks</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="thesis">
+    <div class="wrap">
+      <p class="lede">
+        You are doing three things at once inside the OGR pipeline. Reading handwriting. Preserving the way the page is laid out. Catching the underlines, highlights, and strikes. Most teams treat those as one model problem. They are not. They are three problems stacked on top of each other, and each one belongs on a different layer.
+      </p>
+
+      <div class="split">
+        <div class="split-row">
+          <div class="split-pct"><span>60<em>%</em></span></div>
+          <div class="split-body">
+            <h3>Traditional code and database work</h3>
+            <p>Layout preservation, notebook organization, the subscription logic, the sync layer.</p>
+          </div>
+        </div>
+        <div class="split-row">
+          <div class="split-pct"><span>30<em>%</em></span></div>
+          <div class="split-body">
+            <h3>Rule-based logic</h3>
+            <p>The classifier that decides this mark is an underline and that one is a strikethrough. The per-notebook styling presets. The correction feedback loop, the part that decides which corrections to trust.</p>
+          </div>
+        </div>
+        <div class="split-row">
+          <div class="split-pct split-pct-ai"><span>10<em>%</em></span></div>
+          <div class="split-body">
+            <h3>Real AI</h3>
+            <p>The character and word recognition itself. That is the only layer where a model genuinely earns its cost.</p>
+          </div>
+        </div>
+      </div>
+
+      <p class="coda">
+        When the layers blur, the user corrections stop compounding the way they should, the roadmap slows down, and the team ships slower than the headcount would predict. We call this figuring-out-where-each-problem-lives computational orchestration.
+      </p>
+    </div>
+  </section>
+
+  <section class="proof">
+    <div class="wrap">
+      <div class="proof-grid">
+        <article class="proof-card">
+          <div class="card-tag">What the work looks like</div>
+          <h2>Feeld's CTO ran a similar sprint with us.</h2>
+          <p>
+            A workshop, a handful of advisory calls, an Organizational Context Architecture, and a Strategic Operations Framework. Scoped advisory engagement. He walked out with a map of which parts of his AI stack actually needed AI and which parts were quietly costing him a model call when a rule would have shipped yesterday. Same shape as the NeaterNotes situation, different industry.
+          </p>
+        </article>
+
+        <article class="proof-card">
+          <div class="card-tag">The paper</div>
+          <h2>Interpretable Context Methodology.</h2>
+          <p>
+            Jake's ICM paper (submitted to ACM TiiS) lays out the folder-structure-as-agent-architecture frame. It is the clearest version of how to split the OGR pipeline into layers that can be reasoned about and shipped independently.
+          </p>
+          <p class="card-link">
+            <a href="https://github.com/RinDig/Interpretable-Context-Methodology-ICM-" target="_blank" rel="noopener">github.com/RinDig/Interpretable-Context-Methodology-ICM-</a>
+          </p>
+        </article>
+
+        <article class="proof-card">
+          <div class="card-tag">The deeper build</div>
+          <h2>Partner handoff below the orchestration layer.</h2>
+          <p>
+            Anything that needs heavy ML engineering or a production data pipeline, Eduba partners with NLP Logix for work that sits below the orchestration layer. NLP Logix has been in machine learning since 2011 and runs over 150 data scientists.
+          </p>
+        </article>
+
+        <article class="proof-card">
+          <div class="card-tag">Distribution note</div>
+          <h2>Jake also built an online community to 22,000 members in 5 weeks.</h2>
+          <p>
+            Relevant because student distribution is the choke point you are going to hit next.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="wrap">
+      <div class="cta-card">
+        <div class="cta-content">
+          <div class="cta-eyebrow">Next step</div>
+          <h2>30 minutes with Matt Creamer, CRO at Eduba.</h2>
+          <p>Bring the current OGR accuracy numbers and the free-to-Plus conversion rate. We will do a live orchestration read on both.</p>
+        </div>
+        <div class="cta-action">
+          <a class="btn-primary btn-big" href="https://calendly.com/thecro-eduba/30min" target="_blank" rel="noopener">Book 30 minutes</a>
+          <span class="cta-sub">calendly.com/thecro-eduba/30min</span>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-wrap">
+    <span class="footer-left">Prepared by Eduba · <a href="https://eduba.io" target="_blank" rel="noopener">eduba.io</a></span>
+    <span class="footer-right">For Zavier and the NeaterNotes team</span>
+  </div>
+</footer>
+</body>
+</html>
